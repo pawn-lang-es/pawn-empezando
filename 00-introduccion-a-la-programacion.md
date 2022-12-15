@@ -20,3 +20,9 @@ programación de forma breve. Luego empezar de nuevo añadiendo un par de detall
 La primera parte está algo incompleta y probablemente genere más preguntas que 
 respuestas; al mismo tiempo, podrías encontrar que la segunda parte repite cosas
 de la primera. Pero afortunadamente, la introducción es corta. 
+
+> [Regresar a la página anterior](README.md) (Lista de contenidos)
+>
+> [Ir a la siguiente página](01-un-breve-recorrido.md) (Un breve recorrido)
+>
+> <sub>[Subir al principio de esta página](#introducción-a-la-programación)</sub>

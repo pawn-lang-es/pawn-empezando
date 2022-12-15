@@ -72,3 +72,9 @@ un programa y el de la correción/mantenimiento de un programa existente. El aut
 tiene mucho más que decir sobre encontrar y corregir errores, pero solo dirá 
 que probar y debuguear (el proceso de corregir errores en un programa) es parte 
 integral del ciclo de desarrollo.
+
+> [Regresar a la página anterior](00-introduccion-a-la-programacion.md) (Introducción a la programación)
+>
+> [Ir a la siguiente página](02-un-lenguaje-de-programacion.md) (Un lenguaje de programación ...)
+>
+> <sub>[Subir al principio de esta página](#un-breve-recorrido)</sub>
