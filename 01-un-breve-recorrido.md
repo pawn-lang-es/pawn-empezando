@@ -26,6 +26,8 @@ pasos más grandes deben ser subdivididos, tal vés en otro diagrama. [...] Los
 diagramas de flujo son la semántica más antigua de un programa. No obstante, 
 muchos otros tipos de diagramas y gráficos existen hoy en día.
 
+![Este es un diagrama de flujo](./images/flow-chart.PNG)
+
 Lo que la mayoría de personas perciben como "programación", el acto de escribir
 código en un lenguaje de programación, solo comienza después de  que el análisis
 anterior se haya realizado. Existen muchos lenguajes de programación, y lo
@@ -50,6 +52,8 @@ las herramientas hechas para los programadores buscan que trabajes eficientement
 en lugar de hacerte perder el tiempo con animaciones, soniditos innecesarios y
 otros intentos de lucir *cool*. Brevemente: no seas despectivo con las interfaces
 rudimentarias de las herramientas de los programadores.
+
+![La herramienta de un programador: el IDE de Pawn](./images/ide-quincy.PNG)
 
 Una vez que hayas atravezado todo esto —cuando el análisis de los requerimientos
 y la descomposición en pasos pequeños sea completada, y después de haber escrito
