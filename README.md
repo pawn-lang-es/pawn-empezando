@@ -28,11 +28,6 @@ del lenguaje Pawn.
  - [... y como todo se relaciona](04-y-como-todo-se-relaciona.md)
  - [En conclusión](05-en-conclusion.md)
 
-# Próximamente...
-## Un lenguaje de programación...
-Fecha estimada: 16 de diciembre de 2022.
 
-## ... las herramientas para hacerlo ...
-Fecha estimada: 18 de diciembre de 2022.
 
 Si te gustaría dejar tus comentarios abre un issue.

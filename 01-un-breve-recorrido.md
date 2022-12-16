@@ -3,9 +3,9 @@
 Sea cual sea el lenguaje o la herramienta, la programación es un proceso que 
 requiere una forma particular de resolver los problemas —o incluso una forma
 particular de pensar sobre las actividades y la información. Se centra alrededor
-del *analisis*: "lo que se tiene que hacer bajo ciertas condiciones", *reduccionismo*:
-subdividir una tarea larga en una jerarquía de tareas más pequeñas, y de la
-*sintesis*: unir todo de forma adecuada.
+del *analisis*: "lo que se tiene que hacer bajo ciertas condiciones", del 
+*reduccionismo*: subdividir una tarea larga en una jerarquía de tareas más 
+pequeñas, y de la *síntesis*: unir todo de forma adecuada.
 
 Antes de empezar a crear un programa, debes entender el problema que se te 
 presenta. Una vez tengas una idea clara de lo que el programa debe hacer, tienes
@@ -13,7 +13,7 @@ que pensar una solución en pequeños pasos *deterministas* y *discretos*. Cada 
 podría tener entradas y salidas, y debes ser capaz de describir la función de
 dicho paso en términos únicamente de sus entradas y salidas —esto es lo que el 
 término *discreto* significa. Si no eres capaz de explicar un paso sin referirte
-a otros "pasos" en el programa, tienes una entrada oculta o asumes algo que no 
+a otros "pasos" en el programa, o tienes una entrada oculta o asumes algo que no 
 deberías, por lo que debes reconsiderar tu análisis. El término *determinista*
 significa que el funcionamiento de los pasos o una sequencia de pasos no deberían
 depender de la interpretación (humana) o suposiciones.
