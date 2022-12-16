@@ -1,10 +1,10 @@
 # Un lenguaje de programación ...
 
-El lenguaje de programación es aspecto más notable de cada cosa relacionada a la
-programación. Muchos cursos que enseñan programación se enfocan en uno o más
-lenguajes de programación, y esta introducción no es la excepción. Para propósitos
- de ilustrar cómo un lenguaje de programación luce, veamos un programa simple 
- (en lenguaje PAWN): un programa que suma dos números.
+El lenguaje de programación es el aspecto más notable de cada cosa relacionada al
+mundo de la programación. Muchos cursos que enseñan programación se enfocan en uno
+o más lenguajes de programación, y esta introducción no será la excepción. Para 
+propósitos de ilustrar cómo un lenguaje de programación luce, veamos un programa 
+simple (en el lenguaje PAWN): un programa que suma dos números.
 
 ```cpp
 main()
