@@ -18,7 +18,7 @@ main()
     }
 ```
 
-La primera linea dice `main()`. Este es la definición del punto de entrada para 
+La primera linea dice `main()`. Esta es la definición del punto de entrada para 
 el programa. El programa empieza aquí, y ejecutará todas las instrucciones que 
 estén encerradas entre las llaves. Desde este punto en adelante, el computador 
 correrá a través del programa hacia abajo, una instrucción a la vez. Más adelante
@@ -26,7 +26,7 @@ aprenderás que existen instrucciones específicas en un lenguaje de programaci�
 que cambian el *flujo* de control, pero el flujo básico es secuencialmente hacia
 abajo.
 
-La primera instrucciones seguida de la llave de apertura (`{`), es una declaración
+La primera instrucción seguida de la llave de apertura (`{`), es una declaración
 de tres *variables*. Una variable puede ser vista como una caja (o contenedor): la
 mayoría de las variables contienen un único valor, o incluso contienen una colección 
 de valores u otra información. El programa puede guardar algo en una variable, y 
@@ -44,33 +44,33 @@ La parte derecha podría ser una exprensión aritmética, tal como la instrucci�
 que suma `a`y `b` y lo almacena en la variable `total`; la parte izquierda del 
 símbolo = debe ser siempre una única variable.
 
-Hay una sentencia más antes de la llave de cierre: `printf "%d", total`. En esta 
-línea que parece encriptada, la primera palabra, `printf` indica la acción: enviar 
-algo a la termina o a una pantalla (del computador); la última palabra, `total`, 
+Hay otra sentencia antes de la llave de cierre: `printf "%d", total`. En esta 
+línea que parece encriptada, la primera palabra, `printf` indica la acción: imprimir 
+algo en la terminal o a una pantalla (del computador); la última palabra, `total`, 
 es la variable cuyo valor queremos mostrar, y en el medio hay un código que controla 
-*como* el valor es mostrado. La palabra `printf` es una función del sistema, está 
-documentada en la Referencia del programador, junto con otros códigos de control. 
+*cómo* el valor es mostrado. La palabra `printf` es una función del sistema, está 
+documentada en la [referencia del programador](), junto con otros códigos de control. 
 El código `%d` significa: mostrar un valor con base decimal y sin una parte fraccionaria.
 
 Lo anterior completa el programa. Cuando el programa "corre", ejecuta todas las 
 sentencias entre las llaves de apertura y cierre (`{` y `}`), y luego finaliza. 
-Córrelo otra vez, y hará la misma secuencia de pasos, sin siquiera agotarse o 
+Córrelo otra vez, y hará la misma secuencia de pasos, sin siquiera cansarse o 
 sin darse cuenta que ya es la segunda (o tercera, cuarta, ...) vez que corre.
 
 Las variables en este programa tienen los nombres `a`, `b` y `total`. Tu puedes 
 escoger los nombres de las variables, pero hay algunas reglas a las que debes 
 obedecer. Por ejemplo, solo podrías usar letras, números y el carácter `_` en 
-el nombre de una variable, y el primer caracter no puede ser un número. Además, 
-a pesar de que las mayúsculas y minúsculas son válidas, ellas indicarán variables 
+el nombre de una variable, y el primer carácter no puede ser un número. Además, 
+a pesar de que las mayúsculas y minúsculas son válidas, usarlas indicarán variables 
 diferentes. Por ejemplo, puedes tener dos variables distintas en tu programa 
 que se llamen `manzana` y `Manzana`, respectivamente. Otra forma de explicar 
 esto es decir que el lenguaje de programación PAWN es sensitivo a las mayúsculas 
-y minúsculas (o *case sensitive* en inglés). No todos los plenguajes de programació
-n son sensitivos a las mayúsculas y minúsculas.
+y minúsculas (o *case sensitive* en inglés). No todos los lenguajes de programación 
+son sensitivos a las mayúsculas y minúsculas.
 
-El propósito de una asignación es guardar un valor o alguna pedazo de "información" 
+El propósito de una asignación es guardar un valor o algún pedazo de "información" 
 para su uso posterior. El valor puede ser cualquier cosa: número de cuentas, nombres, 
-total de caminatas, o cualquier elementos que necesitas que el programa recuerde 
+total de caminatas, o cualquier elemento que necesitas que el programa recuerde 
 durante un momento. Un programa no tiene más memoria que la que esté en sus variables. 
 Cuando un programa se ejecuta paso por paso a través de las sentencias, no recuerda 
 nada acerca de la(s) sentencia(s) anterior(es). Si el resultado de la actual sentencia 
@@ -92,7 +92,7 @@ programa hace (después de la declaración de las variables), es poner un valor 
 luego otro en `b`, y finalmente la suma que calcula en `total` —donde usa los valores 
 previamente almacenados en `a` y `b`. Si tu te acercas a tu vecino y le dices que 
 gastaste tu dinero en un sombrero que costaba $ 24 y un libro, y luego recordaste que 
-el libro costó $ 32, tu vecino no tendrá ninguna problema en descubrir tu gasto total. 
+el libro costó $ 32, tu vecino no tendrá ningun problema en descubrir tu gasto total. 
 Pero si lo dices en un programa como las lineas siguientes, estás destinado a obtener 
 una respuesta incorrecta:
 ```cpp
@@ -100,7 +100,7 @@ sombrero = 24
 total = sombrero + libro
 libro = 32
 ```
-La primera asignación, `sombrero = 24` está bien. Cuando el computado mira la segunda 
+La primera asignación, `sombrero = 24` está bien. Cuando el computador mira la segunda 
 segunda asignación, todavía no sabe que valor podría tener `libro`. Sin embargo, el 
 computador solo se enfocará en esa única instrucción: `total = sombrero + libro`; no 
 mirará más adelante ni tampoco recordará que sucedió en el pasado reciente. Y como 
